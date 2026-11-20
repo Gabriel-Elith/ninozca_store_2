@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+  background-color: #fafafc;
+  font-family: Arial, sans-serif;
+  color: #3f3f46;
+}
+
+/* Tarjeta principal */
+.producto-card {
+  max-width: 500px;
+  margin: 0 auto 40px;
+  padding: 35px;
+  border: none;
+  border-radius: 18px;
+  background-color: #ffffff;
+}
+
+/* Icono superior */
+.icono-admin {
+  width: 65px;
+  height: 65px;
+  background-color: #e9d5ff;
+  color: #8b5cf6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 0 auto 20px;
+}
+
+/* Título */
+.producto-card h2 {
+  color: #7135b8;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* Descripción */
+.descripcion {
+  color: #77717f;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+/* Etiquetas */
+.form-label {
+  font-weight: 600;
+  color: #3f3f46;
+  font-size: 14px;
+}
+
+/* Campos */
+.form-control {
+  border: 1px solid #ddd6e7;
+  border-radius: 9px;
+  padding: 11px 13px;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  border-color: #a78bfa;
+  box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.18);
+}
+
+/* Botón guardar */
+.btn-guardar {
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.btn-guardar:hover {
+  background-color: #7135b8;
+  color: white;
+}
+
+/* Botón regresar */
+.btn-volver {
+  color: #7135b8;
+  background-color: #f3e8ff;
+  border: none;
+  border-radius: 9px;
+  padding: 11px;
+  font-weight: 600;
+}
+
+.btn-volver:hover {
+  background-color: #e9d5ff;
+  color: #7135b8;
+}
+
+/* Adaptación a celulares */
+@media (max-width: 576px) {
+  .producto-card {
+    padding: 25px 20px;
+  }
+
+  .producto-card h2 {
+    font-size: 22px;
+  }
+}

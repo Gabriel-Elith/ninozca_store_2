@@ -1,0 +1,153 @@
+body {
+  background-color: #fafafc;
+  color: #3f3f46;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Encabezado */
+.evidencia-header {
+  background-color: #e9d5ff;
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.evidencia-header h1 {
+  color: #7135b8;
+  font-weight: bold;
+}
+
+.evidencia-header h2 {
+  color: #8b5cf6;
+  font-size: 22px;
+}
+
+.evidencia-header p {
+  margin-bottom: 8px;
+}
+
+/* Botón volver */
+.btn-volver {
+  display: inline-block;
+  background-color: #8b5cf6;
+  color: white;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.btn-volver:hover {
+  background-color: #7135b8;
+  color: white;
+}
+
+/* Contenido principal */
+.contenido {
+  max-width: 1050px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Secciones */
+.seccion {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  border-left: 5px solid #a78bfa;
+}
+
+.seccion h2 {
+  color: #7135b8;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.seccion h3 {
+  color: #8b5cf6;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.seccion p,
+.seccion li {
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.seccion li {
+  margin-bottom: 8px;
+}
+
+/* Tablas */
+.tabla-responsive {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.table th {
+  background-color: #e9d5ff;
+  color: #7135b8;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* Fragmentos de código */
+pre {
+  background-color: #27272a;
+  color: #e9d5ff;
+  padding: 20px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+pre code {
+  color: inherit;
+}
+
+/* Conclusión */
+.conclusion {
+  background-color: #e9d5ff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.conclusion h2 {
+  color: #7135b8;
+  font-weight: bold;
+}
+
+/* Pie de página */
+.pie-pagina {
+  text-align: center;
+  padding: 20px;
+  background-color: #f3e8ff;
+}
+
+/* Adaptación a celulares */
+@media (max-width: 576px) {
+  .evidencia-header {
+    padding: 30px 15px;
+  }
+
+  .seccion {
+    padding: 20px;
+  }
+
+  .seccion h2 {
+    font-size: 20px;
+  }
+
+  .contenido {
+    padding: 0 12px;
+  }
+}

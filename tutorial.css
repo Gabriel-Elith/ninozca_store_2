@@ -1,0 +1,112 @@
+body {
+  background-color: #fafafc;
+  color: #3f3f46;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Encabezado */
+.tutorial-header {
+  background-color: #e9d5ff;
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.tutorial-header h1 {
+  color: #7135b8;
+  font-weight: bold;
+}
+
+.tutorial-header p {
+  margin-top: 10px;
+  color: #3f3f46;
+}
+
+/* Botón */
+.btn-volver {
+  display: inline-block;
+  background-color: #8b5cf6;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.btn-volver:hover {
+  background-color: #7135b8;
+  color: white;
+}
+
+/* Contenido */
+.tutorial-container {
+  max-width: 950px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.intro h2 {
+  color: #7135b8;
+  font-weight: bold;
+}
+
+/* Tarjetas */
+.tutorial-card {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  border-left: 5px solid #a78bfa;
+}
+
+.tutorial-card h3 {
+  color: #7135b8;
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.tutorial-card p {
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+/* Iconos */
+.icono {
+  font-size: 30px;
+  color: #8b5cf6;
+  margin-bottom: 10px;
+}
+
+/* Cierre */
+.final-tutorial {
+  background-color: #e9d5ff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 35px;
+}
+
+.final-tutorial h3 {
+  color: #7135b8;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #3f3f46;
+}
+
+.evidencias-menu {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 1000;
+}
